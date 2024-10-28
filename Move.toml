@@ -1,0 +1,17 @@
+[package]
+name = "dmail_mail"
+version = "1.0.0"
+authors = []
+
+[addresses]
+dmail_mail = "0x339f493c9307f14a059c11b6c97fae856e641d8eabb381ef8e2338f35f40c095"
+
+# [dev-addresses]
+# dmail_mail = "0x39883cbc29500a8bf79911ea1469e1c3b58104547a88fb0fbdf17470f80b2a91"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+# [dev-dependencies]
